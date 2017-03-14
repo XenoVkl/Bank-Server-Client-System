@@ -402,10 +402,10 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 								strcat(ret, t_array[1]);
 								strcat(ret, ")");
 								if (write(newsock_des, ret, sizeof(ret)) < 0)
-	            					perror_exit("write");
-	            				flag=1;
-	            				break;
-	            			}
+	            							perror_exit("write");
+								flag=1;
+								break;
+	            					}
 							else if (k==1 && i!=(j-1))// there is not a delay since the last string is an account
 							{
 								strcpy(ret, "Error. Multi-Transfer addition failed(");
@@ -416,9 +416,9 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 								strcat(ret, t_array[j-1]);
 								strcat(ret, "])");
 								if (write(newsock_des, ret, sizeof(ret)) < 0)
-	            					perror_exit("write");
-	            				flag=1;
-	            				break;
+	            							perror_exit("write");
+								flag=1;
+								break;
 							}
 							else if (k==1 && i==(j-1))
 								break;
@@ -464,7 +464,7 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						}	
 						free(arr);
 						if (write(newsock_des, ret, sizeof(ret)) < 0)
-        					perror_exit("write");
+        						perror_exit("write");
 					}
 					else if (t== 0 && k == 0) //cannot transfer and there is no delay
 					{
@@ -483,7 +483,7 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						}
 						free(arr);
 						if (write(newsock_des, ret, sizeof(ret)) < 0)
-        					perror_exit("write");
+        						perror_exit("write");
 					}
 					else if (t == 1 && k == 0) //account exists and there is no delay
 					{
@@ -506,7 +506,7 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						}
 						free(arr);
 						if (write(newsock_des, ret, sizeof(ret)) < 0)
-        					perror_exit("write");
+        						perror_exit("write");
 					}
 					else if (t == 1 && k == 1) //account exists and there is a delay
 					{
@@ -531,7 +531,7 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						}
 						free(arr);
 						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
-        					perror_exit("write");
+        						perror_exit("write");
 					}
 					break;
 				case 4: //balance command
@@ -545,9 +545,9 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						strcat(ret, t_array[1]);
 						strcat(ret, ")");
 						if (write(newsock_des, ret, sizeof(ret)) < 0)	//write back
-            				perror_exit("write");
-            			pthread_mutex_unlock(&mut_array[pos]); //unlock mutex
-            			break;
+            					perror_exit("write");
+            					pthread_mutex_unlock(&mut_array[pos]); //unlock mutex
+            					break;
 					}
 					t=account_balance(hash_table, entries, t_array[1]); //get amount
 					strcpy(ret, "Success. Balance(");
@@ -557,8 +557,8 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 					strcat(ret, temp);
 					strcat(ret, ")");
 					if (write(newsock_des, ret, sizeof(ret)) < 0) //write back
-        				perror_exit("write");
-        			pthread_mutex_unlock(&mut_array[pos]); //unlock mutex
+        					perror_exit("write");
+        				pthread_mutex_unlock(&mut_array[pos]); //unlock mutex
 					break;
 				case 5://multibalance command
 					size=j-1;
@@ -657,14 +657,12 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 					break;
 			}
 	        
-	    }
-	    
+	    	}
 		printf("Closing connection(%d)\n", newsock_des);
-	    close(newsock_des);   
+	    	close(newsock_des);   
 		pthread_cond_signal(&cond_nonfull);
 		usleep(500000);
 	}
 	for (i=0; i<20; i++)
 	    	free(t_array[i]);
-	//pthread_exit(0);
 }
