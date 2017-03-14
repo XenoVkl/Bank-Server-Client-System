@@ -117,60 +117,60 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						usleep(msec*1000);
 						t=create_hash_node(&hash_table[pos], t_array[2], atoi(t_array[1])); //create the account
 						pthread_mutex_unlock(&mut_array[pos]); //unlock the mutex of the bucket
-    					if (t == 1) //if the account creation was successful
-    					{
-    						strcpy(ret, "Success. Account creation(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, "[:");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, "])");
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
-	            				perror_exit("write");
-    					}
-    					else	//if the account creation failed for some reason
-    					{
-    						strcpy(ret, "Error. Account creation failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, "[:");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, "])");
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
-	            				perror_exit("write");
-    					}
+    						if (t == 1) //if the account creation was successful
+    						{
+							strcpy(ret, "Success. Account creation(");
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, "[:");
+							strcat(ret, t_array[3]);
+							strcat(ret, "])");
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
+							perror_exit("write");
+    						}
+						else	//if the account creation failed for some reason
+						{
+							strcpy(ret, "Error. Account creation failed(");
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, "[:");
+							strcat(ret, t_array[3]);
+							strcat(ret, "])");
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
+							perror_exit("write");
+						}
     					
 					}
 					else //if there is no delay in the command
 					{
 						pos=hash_function(t_array[2],entries);
 						pthread_mutex_lock(&mut_array[pos]); //lock mutex of the bucket
-    					t=create_hash_node(&hash_table[pos], t_array[2], atoi(t_array[1])); //create account
-    					pthread_mutex_unlock(&mut_array[pos]); //unlock mutex of the bucket
-    					if (t == 1) //account creation was successful
-    					{
-    						strcpy(ret, "success. Account creation(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, ")");
-    						fflush(stdout);
-    						//printf("I ll send %s from the socket\n", ret);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
-	            				perror_exit("write");
-    					}
-    					else //account creation failed
-    					{
-    						strcpy(ret, "Error. Account creation failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, ")");
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
-	            				perror_exit("write");
-    					}
+    						t=create_hash_node(&hash_table[pos], t_array[2], atoi(t_array[1])); //create account
+    						pthread_mutex_unlock(&mut_array[pos]); //unlock mutex of the bucket
+						if (t == 1) //account creation was successful
+						{
+							strcpy(ret, "success. Account creation(");
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, ")");
+							fflush(stdout);
+							//printf("I ll send %s from the socket\n", ret);
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
+							perror_exit("write");
+						}
+						else //account creation failed
+						{
+							strcpy(ret, "Error. Account creation failed(");
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, ")");
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to client through the socket
+							perror_exit("write");
+						}
     					
 					}
 					break;
@@ -201,57 +201,57 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						if (t==0) //if the first account of the transfer command does not exist
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, "[:");
-    						strcat(ret, t_array[4]);
-    						strcat(ret, "])");
-    						for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
-								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
-	            				perror_exit("write");
-	            			free(arr);
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, "[:");
+							strcat(ret, t_array[4]);
+							strcat(ret, "])");
+							for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
+									pthread_mutex_unlock(&mut_array[arr[i]]);
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
+								perror_exit("write");
+	            					free(arr);
 							break;
 						}
 						t=check_account(hash_table, entries, t_array[3]);
 						if (t==0) //if the second account of the transfer command does not exist
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, "[:");
-    						strcat(ret, t_array[4]);
-    						strcat(ret, "])");
-    						for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, "[:");
+							strcat(ret, t_array[4]);
+							strcat(ret, "])");
+							for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
 								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
-	            				perror_exit("write");
-	            			free(arr);
+							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
+								perror_exit("write");
+							free(arr);
 							break;
 						}
 						t=check_transfer(t_array[2], atoi(t_array[1]), hash_table, entries);
 						if (t==0)
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, "[:");
-    						strcat(ret, t_array[4]);
-    						strcat(ret, "])");
-    						for (i=0; i<size; i++) //unlock the mutexes of the buckets that involve those accounts in the right order
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, "[:");
+							strcat(ret, t_array[4]);
+							strcat(ret, "])");
+    							for (i=0; i<size; i++) //unlock the mutexes of the buckets that involve those accounts in the right order
 								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
-	            				perror_exit("write");
-	            			free(arr);
+    							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
+	            						perror_exit("write");
+	            					free(arr);
 							break;
 						}
 						transfer_amount(t_array[2], t_array[3], atoi(t_array[1]), hash_table, entries);
@@ -267,8 +267,8 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						for (i=0; i<size; i++) //unlock the mutexes of the buckets that involve those accounts in the right order
 								pthread_mutex_unlock(&mut_array[arr[i]]);
 						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
-            				perror_exit("write");
-            			free(arr);
+            					perror_exit("write");
+            					free(arr);
 					}
 					else //if there is not a delay
 					{
@@ -278,51 +278,51 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						if (t==0) //account does not exist
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, ")");
-    						for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
-								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
-	            				perror_exit("write");
-	            			free(arr);
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, ")");
+							for (i=0; i<size; i++)	//unlock the mutexes of the buckets that involve those accounts in the right order
+									pthread_mutex_unlock(&mut_array[arr[i]]);
+    							if (write(newsock_des, ret, sizeof(ret)) < 0) //write back to the client through the socket
+	            						perror_exit("write");
+	            					free(arr);
 							break;
 						}
 						t=check_account(hash_table, entries, t_array[3]);
 						if (t==0) //account does not exist
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, ")");
-    						for (i=0; i<size; i++)
-								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0)
-	            				perror_exit("write");
-	            			free(arr);
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, ")");
+							for (i=0; i<size; i++)
+									pthread_mutex_unlock(&mut_array[arr[i]]);
+							if (write(newsock_des, ret, sizeof(ret)) < 0)
+	            						perror_exit("write");
+	            					free(arr);
 							break;
 						}
 						t=check_transfer(t_array[2], atoi(t_array[1]), hash_table, entries);
 						if (t==0)
 						{
 							strcpy(ret, "Error. Transfer addition failed(");
-    						strcat(ret, t_array[2]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[3]);
-    						strcat(ret, ":");
-    						strcat(ret, t_array[1]);
-    						strcat(ret, ")");
-    						for (i=0; i<size; i++) //unlock the mutexes of the buckets that involve those accounts in the right order
+							strcat(ret, t_array[2]);
+							strcat(ret, ":");
+							strcat(ret, t_array[3]);
+							strcat(ret, ":");
+							strcat(ret, t_array[1]);
+							strcat(ret, ")");
+							for (i=0; i<size; i++) //unlock the mutexes of the buckets that involve those accounts in the right order
 								pthread_mutex_unlock(&mut_array[arr[i]]);
-    						if (write(newsock_des, ret, sizeof(ret)) < 0)  //write back to the client through the socket
-	            				perror_exit("write");
-	            			free(arr);
+    							if (write(newsock_des, ret, sizeof(ret)) < 0)  //write back to the client through the socket
+	            						perror_exit("write");
+	            					free(arr);
 							break;
 						}
 						transfer_amount(t_array[2], t_array[3], atoi(t_array[1]), hash_table, entries);
@@ -336,8 +336,8 @@ void *consumer(void * ptr) //thread function - in a few words, this function tak
 						for (i=0; i<size; i++)
 								pthread_mutex_unlock(&mut_array[arr[i]]); //unlock the mutexes of the buckets that involve those accounts in the right order
 						if (write(newsock_des, ret, sizeof(ret)) < 0)   //write back to the client through the socket
-            				perror_exit("write");
-            			free(arr);
+            						perror_exit("write");
+            					free(arr);
 					}
 					break;
 				case 3://multitransfer command
