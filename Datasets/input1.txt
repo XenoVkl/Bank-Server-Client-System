@@ -1,0 +1,27 @@
+add_account 100 Tate,Mark
+add_account 2500 Williams,Lila 56
+sleep 51
+add_account 3400 Kelley,Marshall
+add_account 2400 Simmons,Ada 61
+add_account 4100 Gutierrez,Jay
+sleep 40
+add_account 1100 Vargas,Toni 62
+sleep 74
+add_account 2300 Perez,Marvin 11
+add_account 3500 Maldonado,Claude
+add_account 2100 Dean,Tracey 71
+add_account 4300 Bishop,Julius 27
+sleep 52
+add_transfer 180 Perez,Marvin Gutierrez,Jay 57
+add_transfer 240 Tate,Mark Williams,Lila 54
+add_transfer 230 Williams,Lila Maldonado,Claude
+add_transfer 60 Tate,Mark Bishop,Julius
+add_transfer 160 Vargas,Toni Williams,Lila 84
+add_transfer 470 Maldonado,Claude Williams,Lila 26
+sleep 87
+add_transfer 300 Maldonado,Claude Bishop,Julius 13
+add_transfer 30 Bishop,Julius Kelley,Marshall
+add_transfer 330 Kelley,Marshall Williams,Lila 90
+sleep 79
+add_transfer 120 Maldonado,Claude Simmons,Ada
+sleep 94

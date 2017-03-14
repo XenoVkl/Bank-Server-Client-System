@@ -1,0 +1,588 @@
+print_balance Hanson,Raquel
+print_balance Stephens,Franklin
+sleep 94
+print_balance Thornton,Tami
+print_balance Fletcher,Valerie
+print_balance Allison,Terry
+sleep 75
+print_balance Larson,Darin
+print_balance Dixon,Vickie
+print_balance Gibbs,Shaun
+sleep 94
+print_balance Hughes,Kristy
+sleep 56
+print_balance Wilkins,Iris
+print_balance Douglas,Jacquelyn
+print_balance Nelson,Diana
+sleep 27
+print_balance Wong,Jenna
+sleep 14
+print_balance Hogan,Damon
+sleep 70
+print_balance Jensen,Harriet
+print_balance Silva,Bob
+print_balance Sims,Louise
+sleep 56
+print_balance Mcbride,Floyd
+sleep 32
+print_balance Hudson,Bridget
+print_balance Bridges,Ricky
+print_balance Hunter,Dana
+sleep 93
+print_balance Horton,Frankie
+sleep 55
+print_balance Bowers,Rochelle
+sleep 11
+print_balance Mckinney,Terri
+print_balance Rose,Mae
+print_balance Ross,Emanuel
+sleep 70
+print_balance Matthews,Jessie
+print_balance Zimmerman,Marian
+print_balance Cole,Sheryl
+sleep 39
+print_balance Turner,Phil
+sleep 65
+print_balance Townsend,Marcia
+sleep 12
+print_balance Chambers,Allen
+print_balance Lee,Tyrone
+sleep 76
+print_balance Hamilton,Nancy
+print_balance Blair,Margaret
+sleep 13
+print_balance Kim,Mercedes
+print_balance Doyle,Terrance
+sleep 87
+print_balance Soto,Tanya
+sleep 48
+print_balance Wade,Rose
+print_balance Clayton,Cindy
+sleep 63
+print_balance Dennis,Clinton
+sleep 78
+print_balance Wilson,Alfredo
+sleep 59
+print_balance Richards,Rosalie
+print_balance Carson,Megan
+sleep 22
+print_balance Brewer,Harold
+print_balance Curry,Kristi
+print_balance Watts,Victoria
+sleep 89
+print_balance Caldwell,Alison
+print_balance Taylor,Annie
+sleep 81
+print_balance Hall,Jacqueline
+sleep 60
+print_balance Washington,Frank
+print_balance Bell,Ashley
+print_balance Patterson,Deborah
+print_balance Miller,Gloria
+sleep 72
+print_balance Barnes,Jimmy
+print_balance Ramirez,Eugene
+sleep 64
+print_balance Clark,Jerry
+sleep 45
+print_balance Simmons,Nicole
+sleep 64
+print_balance Torres,Christine
+print_balance Smith,Phillip
+print_balance White,Brenda
+print_balance Coleman,Catherine
+print_balance Martin,Johnny
+sleep 70
+print_balance Morgan,Gregory
+print_balance Sanders,Jessica
+sleep 26
+print_balance King,Albert
+print_balance Lewis,Jean
+sleep 95
+print_balance Moore,Russell
+sleep 42
+print_balance Bryant,Eric
+print_balance Mitchell,Frances
+sleep 61
+print_balance Thompson,Stephen
+sleep 45
+print_balance Perez,Ryan
+print_balance Gray,Jose
+sleep 45
+print_balance Adams,Anthony
+print_balance Griffin,Judy
+sleep 77
+print_balance Powell,Willie
+print_balance Cook,Janice
+print_balance Rogers,Fred
+sleep 35
+print_balance Howard,Gerald
+print_balance Butler,Lillian
+sleep 99
+print_balance Campbell,Jeremy
+sleep 60
+print_balance Cox,Tammy
+sleep 11
+print_balance Wilson,Todd
+sleep 88
+print_balance Peterson,Terry
+print_balance Hill,Marilyn
+sleep 10
+print_balance Turner,Bruce
+sleep 13
+print_balance Ward,Larry
+print_balance Johnson,Tina
+print_balance Ross,Steven
+print_balance Roberts,Benjamin
+sleep 13
+print_balance Lee,Dorothy
+print_balance Sanchez,Lori
+print_balance Walker,Carlos
+print_balance Phillips,Earl
+sleep 16
+print_balance Alexander,Keith
+sleep 58
+print_balance Rodriguez,Henry
+sleep 54
+print_balance Garcia,Philip
+print_balance Harris,Walter
+print_balance Brooks,Andrew
+print_balance Long,Irene
+sleep 97
+print_balance Nelson,Patricia
+sleep 46
+print_balance Scott,Joseph
+print_balance Williams,Charles
+print_balance Collins,Marie
+sleep 96
+print_balance Watson,Sharon
+sleep 94
+print_balance Carter,Sean
+print_balance Foster,Amanda
+sleep 56
+print_balance Anderson,Carolyn
+print_balance Rivera,Howard
+print_balance Hughes,Shirley
+print_balance Jenkins,Wanda
+print_balance Henderson,Rose
+sleep 24
+print_balance Edwards,Susan
+print_balance Davis,Carol
+sleep 26
+print_balance Baker,Donald
+sleep 57
+print_balance Jones,Matthew
+print_balance Richardson,Ernest
+print_balance Gonzalez,Chris
+sleep 90
+print_balance Russell,Adam
+sleep 85
+print_balance Morris,Pamela
+sleep 60
+print_balance Cooper,Richard
+sleep 23
+print_balance Brown,Harold
+print_balance James,George
+print_balance Green,Teresa
+sleep 19
+print_balance Murphy,Janet
+sleep 53
+print_balance Allen,Ralph
+print_balance Gonzales,Arthur
+print_balance Bailey,Brandon
+print_balance Stewart,Juan
+print_balance Perry,Ruby
+sleep 17
+print_balance Diaz,Roger
+print_balance Young,Ann
+sleep 40
+print_balance Price,Victor
+sleep 65
+print_balance Martinez,Doris
+sleep 11
+print_balance Evans,Craig
+print_balance Wright,Joshua
+print_balance Bennett,Michael
+sleep 14
+print_balance Parker,Sarah
+print_balance Robinson,Phyllis
+sleep 10
+print_balance Kelly,Nancy
+print_balance Hernandez,Margaret
+sleep 44
+print_balance Wood,Louise
+sleep 74
+print_balance Thomas,Kevin
+sleep 15
+print_balance Reed,Kathy
+sleep 38
+print_balance Flores,Mark
+print_balance Lopez,Elizabeth
+print_balance Jackson,Angela
+print_balance Jones,Mary
+sleep 32
+print_balance Curtin,Raisa
+print_balance Hardison,Corine
+print_balance Swisher,Magdalen
+sleep 60
+print_balance Frame,Kandra
+print_balance Gaines,Basilia
+sleep 82
+print_balance Cobbs,Tisha
+print_balance Tamayo,Nohemi
+sleep 58
+print_balance Gay,Syreeta
+sleep 84
+print_balance Whittaker,Eda
+print_balance Mattison,Chelsie
+print_balance Fraley,Kenya
+print_balance Strand,Mirna
+sleep 38
+print_balance Crutcher,Liana
+sleep 49
+print_balance Phelan,Nancie
+print_balance Nixon,Florine
+print_balance Samuels,Jeanna
+sleep 65
+print_balance Held,Cassidy
+print_balance Grier,Rupert
+print_balance Skinner,Lucina
+sleep 36
+print_balance Williford,Evita
+sleep 90
+print_balance Jacks,Zola
+print_balance Neil,Dalton
+sleep 91
+print_balance Maki,Loralee
+sleep 78
+print_balance Zuniga,Corina
+print_balance Rivers,Liza
+sleep 33
+print_balance Storey,Bree
+print_balance Colvin,Pamila
+sleep 98
+print_balance Riggins,Harland
+print_balance Mcpherson,Michael
+print_balance Fierro,Mandi
+print_balance Bland,Bobbie
+print_balance Gaskins,Britt
+sleep 98
+print_balance Ojeda,Trang
+sleep 63
+print_balance Soria,Margart
+sleep 35
+print_balance Poe,Chan
+sleep 77
+print_balance Levin,Phylis
+print_balance Kearns,Jetta
+print_balance Hartmann,Ethelyn
+print_balance Bostic,Katharyn
+sleep 30
+print_balance Barbee,Laraine
+print_balance Fanning,Riva
+print_balance Flynn,Summer
+sleep 58
+print_balance Vigil,Rikki
+sleep 75
+print_balance Burr,Jene
+sleep 95
+print_balance Crocker,Leonardo
+sleep 78
+print_balance Gilliland,Tobias
+sleep 68
+print_balance Parish,Jerrell
+print_balance Mchenry,Karlyn
+print_balance Keys,Terisa
+sleep 46
+print_balance Vance,Daina
+print_balance Le,Noreen
+sleep 11
+print_balance Schuler,Rosalinda
+print_balance Hoyt,Dannie
+sleep 56
+print_balance Becerra,Corrine
+print_balance Fryer,Danille
+sleep 70
+print_balance Lea,Christal
+print_balance Whited,Giuseppe
+sleep 80
+print_balance Borrego,Manuela
+print_balance Watters,Carolee
+print_balance Pryor,Susanna
+print_balance Nall,Beckie
+print_balance Galvan,Cleo
+print_balance Heinz,Yang
+sleep 75
+print_balance Settle,Cyndi
+sleep 77
+print_balance Murillo,Annemarie
+sleep 76
+print_balance Ontiveros,Demetria
+print_balance Mayfield,Latonya
+sleep 79
+print_balance Higdon,Azucena
+sleep 37
+print_balance Shumate,Angelique
+sleep 40
+print_balance Prentice,Isa
+print_balance York,Etha
+print_balance Maynard,Dorla
+print_balance Pruitt,Lupita
+sleep 85
+print_balance Cramer,Jocelyn
+print_balance Hoffmann,Antonette
+sleep 56
+print_balance Moen,Shanta
+sleep 78
+print_balance Webber,Violeta
+print_balance Quintanilla,Lourdes
+sleep 25
+print_balance Jarrell,Renata
+sleep 30
+print_balance Minnick,Apryl
+print_balance Totten,Garth
+sleep 85
+print_balance Littleton,Glady
+print_balance Richie,Cheyenne
+print_balance Golden,Vivien
+sleep 100
+print_balance Hood,Chang
+print_balance Stratton,Georgianne
+print_balance Grisham,Mickey
+print_balance Tibbs,Lore
+print_balance Gage,Willow
+print_balance Hardwick,Annis
+print_balance Peace,Teddy
+sleep 20
+print_balance Silver,Jeanett
+print_balance Hagen,Donita
+print_balance Duggan,Shaniqua
+print_balance William,Mariah
+sleep 100
+print_balance Elrod,Dori
+sleep 13
+print_balance Baines,Carey
+sleep 47
+print_balance Hoyle,Darby
+sleep 50
+print_balance Whitney,Gregoria
+print_balance Cabral,Daine
+print_multi_balance Simmons,Nicole Nixon,Florine Anderson,Carolyn Webber,Violeta
+print_multi_balance Howard,Gerald White,Brenda King,Albert Edwards,Susan Lopez,Elizabeth Alexander,Keith Turner,Bruce Martinez,Doris Gilliland,Tobias Lewis,Jean Carter,Sean Fryer,Danille Allen,Ralph Wilkins,Iris Perry,Ruby
+print_multi_balance Vance,Daina Jacks,Zola Curry,Kristi Whitney,Gregoria
+print_multi_balance Schuler,Rosalinda Maynard,Dorla Caldwell,Alison
+print_multi_balance Le,Noreen Crocker,Leonardo Gonzales,Arthur Jacks,Zola Simmons,Nicole Jarrell,Renata York,Etha Stratton,Georgianne Phelan,Nancie Green,Teresa Flynn,Summer Gaines,Basilia Rivera,Howard Peterson,Terry
+sleep 40
+print_multi_balance Collins,Marie Ross,Emanuel Zuniga,Corina Richards,Rosalie Silva,Bob Hughes,Shirley Lee,Tyrone Hardwick,Annis Hamilton,Nancy
+print_multi_balance Peace,Teddy Mcbride,Floyd Hernandez,Margaret Sanders,Jessica Gonzales,Arthur Collins,Marie Soria,Margart Foster,Amanda Williams,Charles Evans,Craig Allison,Terry Jones,Matthew
+sleep 33
+print_multi_balance Littleton,Glady Garcia,Philip Stewart,Juan Gibbs,Shaun Young,Ann
+sleep 58
+print_multi_balance Butler,Lillian Collins,Marie Smith,Phillip Garcia,Philip Richie,Cheyenne Caldwell,Alison Keys,Terisa Parish,Jerrell Hudson,Bridget Duggan,Shaniqua Long,Irene
+sleep 36
+print_multi_balance Nelson,Patricia Heinz,Yang
+sleep 79
+print_multi_balance Flynn,Summer Nixon,Florine Hardwick,Annis
+print_multi_balance Gonzales,Arthur Skinner,Lucina Soto,Tanya Carter,Sean Williford,Evita Edwards,Susan
+sleep 29
+print_multi_balance Bryant,Eric Carter,Sean Lewis,Jean Allen,Ralph Tamayo,Nohemi Moore,Russell
+sleep 84
+print_multi_balance Adams,Anthony Thomas,Kevin Zuniga,Corina Nall,Beckie Rogers,Fred Keys,Terisa Gaskins,Britt Evans,Craig
+print_multi_balance Johnson,Tina Kearns,Jetta Whitney,Gregoria Chambers,Allen Silva,Bob Storey,Bree Sanchez,Lori Jensen,Harriet Cabral,Daine Whited,Giuseppe Bennett,Michael Ontiveros,Demetria Thomas,Kevin Bell,Ashley Carson,Megan
+sleep 48
+print_multi_balance Hill,Marilyn William,Mariah Whited,Giuseppe Vigil,Rikki Young,Ann Mchenry,Karlyn Walker,Carlos Nelson,Patricia Diaz,Roger Strand,Mirna Mckinney,Terri
+sleep 91
+print_multi_balance Richardson,Ernest Nall,Beckie Thompson,Stephen Rodriguez,Henry Shumate,Angelique
+print_multi_balance Moore,Russell Le,Noreen Griffin,Judy Robinson,Phyllis Swisher,Magdalen Ramirez,Eugene Fraley,Kenya Watts,Victoria Diaz,Roger James,George Peterson,Terry Ontiveros,Demetria Sanchez,Lori Mcpherson,Michael
+sleep 62
+print_multi_balance Hamilton,Nancy Anderson,Carolyn Frame,Kandra Galvan,Cleo Skinner,Lucina Stephens,Franklin Webber,Violeta Mchenry,Karlyn Becerra,Corrine Bowers,Rochelle Flores,Mark Neil,Dalton Mattison,Chelsie Vance,Daina
+sleep 94
+print_multi_balance Wood,Louise Martinez,Doris Chambers,Allen Long,Irene Mcpherson,Michael Ontiveros,Demetria Heinz,Yang Larson,Darin Hudson,Bridget Bell,Ashley Mchenry,Karlyn
+sleep 35
+print_multi_balance Bostic,Katharyn Held,Cassidy Ramirez,Eugene Thomas,Kevin Ojeda,Trang Gibbs,Shaun Schuler,Rosalinda Mckinney,Terri Moore,Russell Silva,Bob
+print_multi_balance Howard,Gerald Jensen,Harriet Kelly,Nancy
+sleep 63
+print_multi_balance Thompson,Stephen Watson,Sharon Morris,Pamela Nelson,Diana William,Mariah Wong,Jenna Sims,Louise Cabral,Daine Walker,Carlos Clark,Jerry
+sleep 13
+print_multi_balance Hagen,Donita Alexander,Keith Soria,Margart Cobbs,Tisha Scott,Joseph Matthews,Jessie Garcia,Philip Gage,Willow Zimmerman,Marian Kearns,Jetta Burr,Jene
+print_multi_balance Fierro,Mandi Cook,Janice Webber,Violeta Powell,Willie Jenkins,Wanda Shumate,Angelique Ojeda,Trang Alexander,Keith Green,Teresa Hill,Marilyn Hood,Chang Lee,Tyrone Mchenry,Karlyn Doyle,Terrance
+print_multi_balance Simmons,Nicole Ross,Emanuel Collins,Marie Vance,Daina Rivers,Liza Perez,Ryan Patterson,Deborah Golden,Vivien Hill,Marilyn Ross,Steven Peterson,Terry Higdon,Azucena Jarrell,Renata
+print_multi_balance Rivers,Liza Alexander,Keith Flynn,Summer Miller,Gloria Mcpherson,Michael Baker,Donald Chambers,Allen Gage,Willow Garcia,Philip Swisher,Magdalen Cook,Janice Wade,Rose Hogan,Damon Burr,Jene
+sleep 39
+print_multi_balance Turner,Bruce King,Albert Richardson,Ernest Murillo,Annemarie Doyle,Terrance Hernandez,Margaret Williams,Charles Crocker,Leonardo Prentice,Isa Foster,Amanda
+sleep 26
+print_multi_balance Bland,Bobbie Hardison,Corine
+sleep 66
+print_multi_balance Larson,Darin Gaines,Basilia Jones,Matthew Dennis,Clinton Peterson,Terry Bennett,Michael Chambers,Allen
+sleep 69
+print_multi_balance Chambers,Allen Murillo,Annemarie Littleton,Glady Larson,Darin Horton,Frankie Lea,Christal Mcpherson,Michael Mayfield,Latonya Jones,Matthew Rose,Mae Hanson,Raquel Dennis,Clinton Thornton,Tami Hoffmann,Antonette
+sleep 98
+print_multi_balance Hernandez,Margaret Storey,Bree Lee,Dorothy Rose,Mae Kelly,Nancy Campbell,Jeremy Held,Cassidy Hughes,Kristy Stewart,Juan Hoyle,Darby Gay,Syreeta Gaines,Basilia Zuniga,Corina
+print_multi_balance Silver,Jeanett Settle,Cyndi Ross,Steven Townsend,Marcia Smith,Phillip Watters,Carolee
+sleep 36
+print_multi_balance Rogers,Fred Jones,Matthew Stephens,Franklin
+print_multi_balance Parker,Sarah Gonzalez,Chris Hardison,Corine Rodriguez,Henry
+print_multi_balance Cook,Janice Wright,Joshua Butler,Lillian Moore,Russell Harris,Walter Gaskins,Britt Strand,Mirna Wade,Rose Galvan,Cleo Hoffmann,Antonette
+print_multi_balance Thornton,Tami Peterson,Terry Thomas,Kevin Hall,Jacqueline Williams,Charles Garcia,Philip Bailey,Brandon Wright,Joshua
+print_multi_balance Hughes,Kristy Barnes,Jimmy Kelly,Nancy Smith,Phillip Elrod,Dori Keys,Terisa Hood,Chang Cramer,Jocelyn Powell,Willie Carter,Sean Gage,Willow Martin,Johnny Morris,Pamela
+print_multi_balance Wood,Louise Wilson,Alfredo Poe,Chan Young,Ann James,George Kearns,Jetta Rivera,Howard Adams,Anthony Crocker,Leonardo Hoyle,Darby Hardwick,Annis
+print_multi_balance Perry,Ruby Evans,Craig Diaz,Roger Tibbs,Lore Held,Cassidy Hernandez,Margaret Horton,Frankie Hughes,Kristy Bland,Bobbie Gonzales,Arthur Perez,Ryan Frame,Kandra Gray,Jose Martin,Johnny Bridges,Ricky
+sleep 96
+print_multi_balance Cabral,Daine Miller,Gloria Richards,Rosalie Patterson,Deborah Watters,Carolee Whittaker,Eda Fryer,Danille Morris,Pamela Evans,Craig Phillips,Earl Swisher,Magdalen Gonzalez,Chris Quintanilla,Lourdes Jones,Matthew Levin,Phylis
+print_multi_balance Poe,Chan Keys,Terisa
+sleep 74
+print_multi_balance Moen,Shanta Peace,Teddy Tibbs,Lore Stratton,Georgianne Howard,Gerald Hernandez,Margaret Bowers,Rochelle
+print_multi_balance Foster,Amanda Swisher,Magdalen Hoyt,Dannie Mckinney,Terri Jenkins,Wanda Griffin,Judy Parish,Jerrell Hunter,Dana Richardson,Ernest Gage,Willow Turner,Bruce Collins,Marie Jones,Matthew Ward,Larry Prentice,Isa
+print_multi_balance Totten,Garth Moore,Russell Peterson,Terry Horton,Frankie Ramirez,Eugene Hood,Chang Poe,Chan Torres,Christine Morgan,Gregory Wong,Jenna Mcbride,Floyd Patterson,Deborah Robinson,Phyllis
+print_multi_balance Perry,Ruby Mckinney,Terri Keys,Terisa Schuler,Rosalinda
+print_multi_balance Hagen,Donita Lea,Christal Wright,Joshua Simmons,Nicole Storey,Bree Richardson,Ernest Bennett,Michael Flores,Mark Morgan,Gregory Wong,Jenna Martin,Johnny
+sleep 45
+print_multi_balance Martinez,Doris Hoffmann,Antonette Anderson,Carolyn Totten,Garth
+print_multi_balance Thompson,Stephen Crutcher,Liana Perez,Ryan Wade,Rose Mayfield,Latonya Wilkins,Iris Grier,Rupert Scott,Joseph Quintanilla,Lourdes
+print_multi_balance Bridges,Ricky Tamayo,Nohemi
+sleep 39
+print_multi_balance Cobbs,Tisha Mcbride,Floyd Hogan,Damon Matthews,Jessie Douglas,Jacquelyn Washington,Frank Whited,Giuseppe
+sleep 37
+print_multi_balance Torres,Christine Hanson,Raquel
+sleep 77
+print_multi_balance Hernandez,Margaret Jensen,Harriet Richardson,Ernest Hill,Marilyn Pryor,Susanna Kim,Mercedes Price,Victor Wade,Rose Nelson,Patricia Hughes,Kristy
+print_multi_balance Barbee,Laraine Ramirez,Eugene Duggan,Shaniqua Hughes,Shirley Evans,Craig
+sleep 25
+print_multi_balance Allen,Ralph Rivera,Howard James,George Davis,Carol Henderson,Rose Tibbs,Lore Turner,Bruce Young,Ann Thompson,Stephen Galvan,Cleo Doyle,Terrance Kearns,Jetta Littleton,Glady
+print_multi_balance Fierro,Mandi Borrego,Manuela
+sleep 51
+print_multi_balance Wilson,Todd Price,Victor Gay,Syreeta Ross,Steven Wilson,Alfredo Johnson,Tina Thornton,Tami Mckinney,Terri Hall,Jacqueline Sanders,Jessica Held,Cassidy Wright,Joshua Gray,Jose
+sleep 22
+print_multi_balance Hartmann,Ethelyn Reed,Kathy Prentice,Isa Settle,Cyndi Powell,Willie Heinz,Yang Gonzales,Arthur Golden,Vivien Schuler,Rosalinda Perry,Ruby
+print_multi_balance Gaskins,Britt Skinner,Lucina Sanchez,Lori Soria,Margart Kearns,Jetta
+sleep 78
+print_multi_balance Bailey,Brandon Levin,Phylis Simmons,Nicole Tibbs,Lore Caldwell,Alison Perry,Ruby Maynard,Dorla Jones,Mary Green,Teresa Soto,Tanya Hill,Marilyn
+print_multi_balance Kim,Mercedes Wong,Jenna Wilson,Todd Becerra,Corrine Mcpherson,Michael Sanchez,Lori Jacks,Zola Galvan,Cleo
+print_multi_balance Fletcher,Valerie Barbee,Laraine Mcpherson,Michael Hall,Jacqueline Hughes,Shirley Roberts,Benjamin
+print_multi_balance Pryor,Susanna York,Etha Duggan,Shaniqua Phelan,Nancie Soria,Margart Skinner,Lucina Rodriguez,Henry
+sleep 27
+print_multi_balance Anderson,Carolyn Golden,Vivien Ross,Emanuel Adams,Anthony
+sleep 28
+print_multi_balance Hagen,Donita Hood,Chang Cooper,Richard Carter,Sean Jackson,Angela Fraley,Kenya Horton,Frankie Kim,Mercedes Richards,Rosalie Swisher,Magdalen
+sleep 42
+print_multi_balance Alexander,Keith Martinez,Doris Watson,Sharon Bell,Ashley Nall,Beckie Smith,Phillip Lee,Tyrone Grier,Rupert Zuniga,Corina Stratton,Georgianne Bailey,Brandon Moen,Shanta
+sleep 57
+print_multi_balance Hardwick,Annis Baker,Donald Samuels,Jeanna Watson,Sharon
+sleep 79
+print_multi_balance Mattison,Chelsie Crocker,Leonardo Duggan,Shaniqua Coleman,Catherine Fletcher,Valerie Silva,Bob Taylor,Annie Grier,Rupert
+print_multi_balance Hoyt,Dannie Lee,Tyrone Jackson,Angela Hoyle,Darby Jones,Matthew Howard,Gerald Diaz,Roger Thompson,Stephen Ward,Larry
+sleep 88
+print_multi_balance Perry,Ruby Ward,Larry Mayfield,Latonya Carson,Megan Grisham,Mickey Bennett,Michael Maki,Loralee Lea,Christal Hoyle,Darby Young,Ann Totten,Garth Sanders,Jessica Held,Cassidy Samuels,Jeanna
+print_multi_balance Lopez,Elizabeth Collins,Marie Anderson,Carolyn Whited,Giuseppe Hanson,Raquel York,Etha Hoyt,Dannie Jarrell,Renata Douglas,Jacquelyn Jacks,Zola Levin,Phylis Swisher,Magdalen
+print_multi_balance Wright,Joshua Sanchez,Lori Johnson,Tina Kearns,Jetta Anderson,Carolyn Gonzales,Arthur
+print_multi_balance Parish,Jerrell Ontiveros,Demetria Scott,Joseph Gage,Willow Chambers,Allen Tibbs,Lore Swisher,Magdalen
+sleep 82
+print_multi_balance Thornton,Tami Smith,Phillip Hogan,Damon Kim,Mercedes Higdon,Azucena Alexander,Keith Brewer,Harold
+print_multi_balance Parish,Jerrell Gilliland,Tobias Jacks,Zola Hoyle,Darby Townsend,Marcia Patterson,Deborah Bostic,Katharyn Silver,Jeanett
+print_multi_balance Wade,Rose Caldwell,Alison Robinson,Phyllis Grier,Rupert Harris,Walter Hoffmann,Antonette
+print_multi_balance Williams,Charles Lee,Dorothy Sims,Louise Jenkins,Wanda Phelan,Nancie Hood,Chang Brewer,Harold Grier,Rupert Allen,Ralph Cobbs,Tisha Ramirez,Eugene Bell,Ashley
+sleep 51
+print_multi_balance Ojeda,Trang Fraley,Kenya Parish,Jerrell Miller,Gloria Wilson,Todd Bland,Bobbie Murillo,Annemarie Held,Cassidy Frame,Kandra Thompson,Stephen Soria,Margart Mattison,Chelsie
+print_multi_balance Soto,Tanya Allen,Ralph Settle,Cyndi Johnson,Tina Curtin,Raisa Bowers,Rochelle Morris,Pamela Bridges,Ricky Tibbs,Lore Quintanilla,Lourdes
+sleep 78
+print_multi_balance Kim,Mercedes Silver,Jeanett Wilson,Todd Cobbs,Tisha Burr,Jene Adams,Anthony Bailey,Brandon Ramirez,Eugene
+print_multi_balance Strand,Mirna Richie,Cheyenne Washington,Frank Hood,Chang Samuels,Jeanna Gonzalez,Chris Mcbride,Floyd Hernandez,Margaret Schuler,Rosalinda Harris,Walter Riggins,Harland
+print_multi_balance James,George Cobbs,Tisha Townsend,Marcia Keys,Terisa Watters,Carolee Hanson,Raquel Cook,Janice Webber,Violeta Adams,Anthony
+print_multi_balance Douglas,Jacquelyn James,George Ward,Larry Shumate,Angelique Matthews,Jessie Blair,Margaret Nall,Beckie Butler,Lillian Jenkins,Wanda Rodriguez,Henry
+sleep 82
+print_multi_balance Johnson,Tina Stewart,Juan Sanders,Jessica Hogan,Damon Webber,Violeta Watts,Victoria Williams,Charles Riggins,Harland Cox,Tammy Walker,Carlos Murphy,Janet Bailey,Brandon
+print_multi_balance Fraley,Kenya White,Brenda Zuniga,Corina Howard,Gerald Evans,Craig Rodriguez,Henry Hogan,Damon Johnson,Tina Hoffmann,Antonette Gibbs,Shaun Gray,Jose Becerra,Corrine Robinson,Phyllis
+sleep 34
+print_multi_balance Neil,Dalton Taylor,Annie
+sleep 23
+print_multi_balance Hall,Jacqueline Morris,Pamela Borrego,Manuela Le,Noreen Hunter,Dana
+print_multi_balance Shumate,Angelique Bailey,Brandon Horton,Frankie
+print_multi_balance Murillo,Annemarie Douglas,Jacquelyn Hamilton,Nancy Nelson,Patricia Lee,Dorothy Gaines,Basilia Sanders,Jessica Roberts,Benjamin Hardwick,Annis Hardison,Corine Tamayo,Nohemi Watters,Carolee Maki,Loralee Clark,Jerry Moen,Shanta
+sleep 31
+print_multi_balance Webber,Violeta Hogan,Damon Gay,Syreeta Bridges,Ricky
+print_multi_balance Robinson,Phyllis Patterson,Deborah Tamayo,Nohemi Harris,Walter Galvan,Cleo Stephens,Franklin Kelly,Nancy Held,Cassidy Brewer,Harold Gilliland,Tobias Miller,Gloria Hernandez,Margaret
+print_multi_balance Wilkins,Iris Mcpherson,Michael Crutcher,Liana Barbee,Laraine Maki,Loralee Lea,Christal
+print_multi_balance Murillo,Annemarie King,Albert Jenkins,Wanda
+sleep 25
+print_multi_balance Price,Victor York,Etha Hughes,Kristy Carson,Megan Nelson,Diana Murillo,Annemarie Hunter,Dana Watts,Victoria Baines,Carey Nixon,Florine
+print_multi_balance Colvin,Pamila Curry,Kristi Tamayo,Nohemi Carter,Sean Nelson,Diana Vance,Daina Wright,Joshua Gonzalez,Chris Lee,Tyrone Cole,Sheryl Crutcher,Liana Fraley,Kenya Walker,Carlos Sanders,Jessica Carson,Megan
+sleep 60
+print_multi_balance Bell,Ashley Bryant,Eric
+sleep 31
+print_multi_balance Prentice,Isa Flores,Mark Poe,Chan Cole,Sheryl Allison,Terry Bowers,Rochelle Kim,Mercedes Larson,Darin Colvin,Pamila Soto,Tanya Johnson,Tina Ross,Steven
+print_multi_balance Moore,Russell Swisher,Magdalen Hoyle,Darby Neil,Dalton Williford,Evita Henderson,Rose Soto,Tanya Torres,Christine
+sleep 84
+print_multi_balance York,Etha Richards,Rosalie Parker,Sarah Flores,Mark Mchenry,Karlyn
+print_multi_balance Hernandez,Margaret Morgan,Gregory Rogers,Fred
+print_multi_balance York,Etha Simmons,Nicole Rose,Mae Williams,Charles Sanchez,Lori Hill,Marilyn Riggins,Harland Galvan,Cleo Hudson,Bridget
+sleep 60
+print_multi_balance Thomas,Kevin Simmons,Nicole Dennis,Clinton Brown,Harold Grisham,Mickey Morris,Pamela Frame,Kandra Watters,Carolee Gaskins,Britt
+sleep 89
+print_multi_balance Lopez,Elizabeth Higdon,Azucena Blair,Margaret Wright,Joshua Lee,Tyrone Ross,Emanuel
+print_multi_balance Bridges,Ricky Higdon,Azucena Settle,Cyndi Edwards,Susan Gonzalez,Chris Totten,Garth Watson,Sharon
+sleep 42
+print_multi_balance Ross,Steven Zuniga,Corina Ramirez,Eugene Phillips,Earl Gilliland,Tobias Poe,Chan Caldwell,Alison Held,Cassidy Bostic,Katharyn Gage,Willow
+sleep 68
+print_multi_balance Bostic,Katharyn Bell,Ashley Carter,Sean Murillo,Annemarie Perry,Ruby Simmons,Nicole
+print_multi_balance Watson,Sharon Littleton,Glady Parker,Sarah Thomas,Kevin Brewer,Harold Hunter,Dana Burr,Jene Cabral,Daine Davis,Carol
+sleep 87
+print_multi_balance Davis,Carol Foster,Amanda Watters,Carolee Campbell,Jeremy Lee,Tyrone Whited,Giuseppe Richards,Rosalie Hagen,Donita Lee,Dorothy Richie,Cheyenne Harris,Walter
+sleep 22
+print_multi_balance Nelson,Diana White,Brenda Townsend,Marcia Hughes,Shirley Webber,Violeta Golden,Vivien Rogers,Fred Green,Teresa Ontiveros,Demetria
+sleep 72
+print_multi_balance Webber,Violeta Cramer,Jocelyn Higdon,Azucena Rodriguez,Henry Quintanilla,Lourdes Tibbs,Lore Rogers,Fred Matthews,Jessie Ross,Emanuel Lea,Christal Murphy,Janet
+print_multi_balance Hardwick,Annis Parker,Sarah Fierro,Mandi Ward,Larry Larson,Darin Gonzales,Arthur Zuniga,Corina Bailey,Brandon
+sleep 78
+print_multi_balance Zimmerman,Marian Tamayo,Nohemi Tibbs,Lore Brown,Harold Flynn,Summer Webber,Violeta Baines,Carey Peace,Teddy Ross,Steven Mattison,Chelsie Rodriguez,Henry Jackson,Angela Nall,Beckie
+sleep 78
+print_multi_balance Mcpherson,Michael Schuler,Rosalinda
+print_multi_balance Roberts,Benjamin James,George Hanson,Raquel
+print_multi_balance Powell,Willie Hunter,Dana Russell,Adam Reed,Kathy Clark,Jerry Perez,Ryan
+print_multi_balance Stratton,Georgianne King,Albert Williford,Evita Butler,Lillian Williams,Charles Thompson,Stephen Jensen,Harriet
+print_multi_balance Scott,Joseph Murphy,Janet Taylor,Annie Powell,Willie Garcia,Philip Ontiveros,Demetria Lee,Tyrone Ward,Larry Blair,Margaret
+sleep 88
+print_multi_balance Dixon,Vickie Heinz,Yang Frame,Kandra Vance,Daina Cook,Janice Townsend,Marcia Griffin,Judy Young,Ann Fryer,Danille Cramer,Jocelyn Prentice,Isa White,Brenda Reed,Kathy Gaskins,Britt Keys,Terisa
+sleep 29
+print_multi_balance Crocker,Leonardo Stephens,Franklin Reed,Kathy Wilkins,Iris Hanson,Raquel Maki,Loralee Davis,Carol Zimmerman,Marian Bland,Bobbie Fierro,Mandi
+print_multi_balance Colvin,Pamila Coleman,Catherine Wong,Jenna Kearns,Jetta
+print_multi_balance Richie,Cheyenne Nall,Beckie Sims,Louise Phillips,Earl Fierro,Mandi Russell,Adam Carter,Sean Watters,Carolee William,Mariah Ontiveros,Demetria King,Albert Turner,Phil
+sleep 48
+print_multi_balance Zimmerman,Marian Hogan,Damon Borrego,Manuela Totten,Garth Jacks,Zola Hoyle,Darby Frame,Kandra
+sleep 92
+print_multi_balance James,George Zuniga,Corina Nixon,Florine Storey,Bree Turner,Phil Thompson,Stephen Roberts,Benjamin Barbee,Laraine Parker,Sarah Baines,Carey Pryor,Susanna Stratton,Georgianne Gonzalez,Chris
+print_multi_balance Blair,Margaret Caldwell,Alison Stratton,Georgianne Rogers,Fred Moen,Shanta Curtin,Raisa Nelson,Diana
+sleep 43
+print_multi_balance Cole,Sheryl Richie,Cheyenne Gilliland,Tobias Thomas,Kevin Peterson,Terry Henderson,Rose Fryer,Danille Griffin,Judy Flynn,Summer Wood,Louise
+print_multi_balance Golden,Vivien Fletcher,Valerie Miller,Gloria Price,Victor
+print_multi_balance Gaskins,Britt Whitney,Gregoria Minnick,Apryl Mckinney,Terri Curtin,Raisa Whittaker,Eda Ward,Larry Clayton,Cindy
+print_multi_balance Watts,Victoria Larson,Darin Hughes,Shirley
+print_multi_balance Kearns,Jetta Silva,Bob Totten,Garth Thornton,Tami Collins,Marie Strand,Mirna Bailey,Brandon
+print_multi_balance Morris,Pamela Ojeda,Trang Whittaker,Eda Fierro,Mandi Collins,Marie Hogan,Damon York,Etha Johnson,Tina
+print_multi_balance Jones,Matthew Chambers,Allen Garcia,Philip Gibbs,Shaun King,Albert
+sleep 54
+print_multi_balance Rivers,Liza Douglas,Jacquelyn Murillo,Annemarie Gonzales,Arthur
+print_multi_balance Collins,Marie Neil,Dalton Wade,Rose Townsend,Marcia
+sleep 26
+print_multi_balance Barnes,Jimmy Martinez,Doris Nixon,Florine Soto,Tanya Hagen,Donita Hamilton,Nancy Flynn,Summer Stephens,Franklin Jarrell,Renata Storey,Bree Powell,Willie Hoffmann,Antonette Gilliland,Tobias Hogan,Damon Gay,Syreeta
+sleep 85
+print_multi_balance Soria,Margart Peterson,Terry Reed,Kathy Richie,Cheyenne
+sleep 80
+print_multi_balance Cole,Sheryl Butler,Lillian Hunter,Dana King,Albert Long,Irene Keys,Terisa Williams,Charles Nall,Beckie Zuniga,Corina William,Mariah Torres,Christine
+print_multi_balance Vigil,Rikki Reed,Kathy Neil,Dalton
+print_multi_balance Hall,Jacqueline Ontiveros,Demetria Harris,Walter Larson,Darin Rogers,Fred Gay,Syreeta Adams,Anthony Chambers,Allen Carter,Sean Morgan,Gregory Le,Noreen Dixon,Vickie
+print_multi_balance Nall,Beckie Mchenry,Karlyn Sanchez,Lori Bailey,Brandon Swisher,Magdalen Moore,Russell Soto,Tanya Hartmann,Ethelyn Tamayo,Nohemi Patterson,Deborah Peace,Teddy
+sleep 71
+print_multi_balance Blair,Margaret Anderson,Carolyn
+print_multi_balance Fryer,Danille Cabral,Daine Campbell,Jeremy Fanning,Riva Alexander,Keith Zimmerman,Marian Robinson,Phyllis William,Mariah Torres,Christine Gilliland,Tobias Sims,Louise Strand,Mirna Cramer,Jocelyn Silver,Jeanett Whited,Giuseppe
+sleep 30
+print_multi_balance Littleton,Glady Wilson,Todd Hood,Chang Walker,Carlos Rogers,Fred
+sleep 51
+print_multi_balance Golden,Vivien Minnick,Apryl Alexander,Keith Griffin,Judy
+print_multi_balance Mitchell,Frances White,Brenda
+sleep 65
+print_multi_balance Watts,Victoria Bryant,Eric Long,Irene Hood,Chang Washington,Frank Fierro,Mandi Cobbs,Tisha Shumate,Angelique Fryer,Danille
+print_multi_balance Nixon,Florine Howard,Gerald Henderson,Rose Mckinney,Terri Ross,Steven Cabral,Daine Hall,Jacqueline Lewis,Jean Hanson,Raquel Martinez,Doris
+sleep 21
+print_multi_balance Swisher,Magdalen Wong,Jenna Williams,Charles Brooks,Andrew Wilson,Todd Mcbride,Floyd Lea,Christal Mitchell,Frances Vance,Daina Pruitt,Lupita
+print_multi_balance Henderson,Rose Ojeda,Trang Hardison,Corine Gaines,Basilia Hartmann,Ethelyn Long,Irene Johnson,Tina Bennett,Michael Ontiveros,Demetria Baker,Donald Lopez,Elizabeth James,George Hughes,Kristy Hood,Chang Collins,Marie
+print_multi_balance Hamilton,Nancy Rogers,Fred Garcia,Philip Frame,Kandra Flores,Mark
