@@ -21,10 +21,10 @@ int main(int argc, char **argv)
 {
 	int port, sock_des, i, n, msec;
 	char command_file[256], hostname[64], *s, temp_str[1024], str[1024], *token;
-    struct sockaddr_in server;
-    struct sockaddr *serverptr = (struct sockaddr*)&server;
-    struct hostent *rem;
-    FILE *ifp;
+    	struct sockaddr_in server;
+    	struct sockaddr *serverptr = (struct sockaddr*)&server;
+    	struct hostent *rem;
+    	FILE *ifp;
 	/* Some error-handling for the arguments */
 	if (argc != 7)
 	{
@@ -51,56 +51,54 @@ int main(int argc, char **argv)
 		printf("Flag-arguments error\n");
 		exit(1);
 	}
-	/* ---- */
 
-//some more error handling techinques 
+	//more error handling techinques 
 	if (strcmp(argv[1], "-p") == 0)
-    {
-    	port=atoi(argv[2]);
-    	if (strcmp(argv[3], "-h") == 0)
     	{
-    		strcpy(hostname, argv[4]);
-    		strcpy(command_file, argv[6]);
-    	}
-    	else if (strcmp(argv[5], "-h") == 0)
-    	{
-    		strcpy(hostname, argv[6]);
-    		strcpy(command_file, argv[4]);
-    	}
-    }
+    		port=atoi(argv[2]);
+    		if (strcmp(argv[3], "-h") == 0)
+    		{
+    			strcpy(hostname, argv[4]);
+    			strcpy(command_file, argv[6]);
+    		}
+    		else if (strcmp(argv[5], "-h") == 0)
+    		{
+    			strcpy(hostname, argv[6]);
+    			strcpy(command_file, argv[4]);
+    		}
+   	 }
     else if (strcmp(argv[3], "-p") == 0)
     {
-    	port=atoi(argv[4]);
-    	if (strcmp(argv[1], "-h") == 0)
-    	{
-    		strcpy(hostname, argv[2]);
-    		strcpy(command_file, argv[6]);
-    	}
-    	else if (strcmp(argv[5], "-h") == 0)
-    	{
-    		strcpy(hostname, argv[6]);
-    		strcpy(command_file, argv[2]);
-    	}
+	port=atoi(argv[4]);
+	if (strcmp(argv[1], "-h") == 0)
+	{
+		strcpy(hostname, argv[2]);
+		strcpy(command_file, argv[6]);
+	}
+	else if (strcmp(argv[5], "-h") == 0)
+	{
+		strcpy(hostname, argv[6]);
+		strcpy(command_file, argv[2]);
+	}
     }
     else if (strcmp(argv[5], "-p") == 0)
     {
-    	port=atoi(argv[6]);
-    	if (strcmp(argv[1], "-h") == 0)
-    	{
-    		strcpy(hostname, argv[2]);
-    		strcpy(command_file, argv[4]);
-    	}
-    	else if (strcmp(argv[3], "-h") == 0)
-    	{
-    		strcpy(hostname, argv[4]);
-    		strcpy(command_file, argv[2]);
-    	}
+	port=atoi(argv[6]);
+	if (strcmp(argv[1], "-h") == 0)
+	{
+		strcpy(hostname, argv[2]);
+		strcpy(command_file, argv[4]);
+	}
+	else if (strcmp(argv[3], "-h") == 0)
+	{
+		strcpy(hostname, argv[4]);
+		strcpy(command_file, argv[2]);
+	}
     }
-    //printf("port %d hostname %s command_file %s\n", port, hostname, command_file);
 
     /* Create socket */
     if ((sock_des = socket(PF_INET, SOCK_STREAM, 0)) < 0)
-    	perror_exit("socket error");
+	perror_exit("socket error");
     //printf("sock_des=%d\n", sock_des);
 	/* Find server address */
     if ((rem = gethostbyname(hostname)) == NULL) {	
@@ -117,63 +115,63 @@ int main(int argc, char **argv)
 
     if ((ifp=fopen(command_file, "rb")) == NULL) //open command file
     {
-        perror("fopen-source file");
-        exit(0);
+	perror("fopen-source file");
+	exit(0);
     }
     while(1) //read from the file in this loop line by line till EOF
     {
-        if (fgets(str, sizeof(str), ifp) == NULL)
-            break;
-        //s=str;
-        strcpy(temp_str, str); // some error-message handling again
-        token = strtok_r(temp_str, " \n", &s);
-        if (strcmp(str, "exit\n") == 0) //exit command for client
-        {
-            close(sock_des);
-            return 0;
-        }
-        if (strcmp(token, "sleep") == 0) // sleep command for client
-        {
-            token = strtok_r(NULL, " \n", &s);
-            msec=atoi(token);
-            //printf("client sleeping for %d msec\n", msec);
-            usleep(msec*1000);
-            //printf("client woke up\n");
-            continue;
-        }
-        if (write(sock_des, str, sizeof(str)) < 0)
-               perror_exit("write");
-        if (read(sock_des, str, sizeof(str)) < 0)
-                perror_exit("read"); 
-        printf("%s\n", str);
+	if (fgets(str, sizeof(str), ifp) == NULL)
+	    break;
+	//s=str;
+	strcpy(temp_str, str); // some error-message handling again
+	token = strtok_r(temp_str, " \n", &s);
+	if (strcmp(str, "exit\n") == 0) //exit command for client
+	{
+	    close(sock_des);
+	    return 0;
+	}
+	if (strcmp(token, "sleep") == 0) // sleep command for client
+	{
+	    token = strtok_r(NULL, " \n", &s);
+	    msec=atoi(token);
+	    //printf("client sleeping for %d msec\n", msec);
+	    usleep(msec*1000);
+	    //printf("client woke up\n");
+	    continue;
+	}
+	if (write(sock_des, str, sizeof(str)) < 0)
+	       perror_exit("write");
+	if (read(sock_des, str, sizeof(str)) < 0)
+		perror_exit("read"); 
+	printf("%s\n", str);
     } 
     fclose(ifp);
 
     /*Start writing to socket by reading commands from the stdin*/
     while(1)
     {
-    	if (fgets(str, sizeof(str), stdin) == NULL)
-            break;
-        s=str;
-        strcpy(temp_str, str); // some error-message handling again
-        token = strtok_r(temp_str, " \n", &s);
-        if (strcmp(str, "exit\n") == 0) //exit command for client
-        {
-            close(sock_des);
-            return 0;
-        }
-        if (strcmp(token, "sleep") == 0) // sleep command for client
-        {
-            token = strtok_r(NULL, " \n", &s);
-            msec=atoi(token);
-            usleep(msec*1000);
-            continue;
-        }
-    	if (write(sock_des, str, sizeof(str)) < 0)
-        	   perror_exit("write");
-        if (read(sock_des, str, sizeof(str)) < 0)
-        	    perror_exit("read");        
-        printf("%s\n", str);
+	if (fgets(str, sizeof(str), stdin) == NULL)
+	    break;
+	s=str;
+	strcpy(temp_str, str); // some error-message handling again
+	token = strtok_r(temp_str, " \n", &s);
+	if (strcmp(str, "exit\n") == 0) //exit command for client
+	{
+	    close(sock_des);
+	    return 0;
+	}
+	if (strcmp(token, "sleep") == 0) // sleep command for client
+	{
+	    token = strtok_r(NULL, " \n", &s);
+	    msec=atoi(token);
+	    usleep(msec*1000);
+	    continue;
+	}
+	if (write(sock_des, str, sizeof(str)) < 0)
+		   perror_exit("write");
+	if (read(sock_des, str, sizeof(str)) < 0)
+		    perror_exit("read");        
+	printf("%s\n", str);
     }
     close(sock_des);
 }
