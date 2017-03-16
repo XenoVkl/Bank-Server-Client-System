@@ -9,3 +9,26 @@ The bank server program is a program that manages a bank. It uses a hashtable(fo
 -------------------
 Bank client program
 -------------------
+The bank client is connected with the bank server through an IP address and a port(both command line arguments). Then the bank client reads commands from a datafile or the stdin and prints the results that receives from the server(stdout).
+
+Commands for the bank client:
+
+- add_account [init_amount] [account_name] [delay]
+
+  Requests for a bank account creation with an initial amount of money
+
+- add_transfer [amount] [src_name] [dest_name] [delay]
+
+  Requests for a ransaction between two bank accounts
+  
+- add_multi_transfer [amount] [src_name] [dst_name1] ... [dst_nameX] [delay]
+ 
+  Requests for multiple transactions between one bank account and others
+  
+- print_balance [name]
+
+  
+
+  
+  
+
