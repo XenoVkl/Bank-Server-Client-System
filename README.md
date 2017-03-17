@@ -42,9 +42,13 @@ Commands for the bank client:
   The program bank-client will be terminated
   
 
-----------------------------------------------------------------------
-Implementing the system using Networking and Monitor style programming 
-----------------------------------------------------------------------
-  
+----------------------------------------
+Networking and Monitor-Style programming 
+----------------------------------------
+The main challenge of this project is not just to achieve a communication between the clients and the server using sockets and threads, but also achieve quick access to the accounts, parallel thread execution  and of course avoid race conditions, deadlocks etc. In order to do so, we use mutexes-condition variables(those two are the basis of a concurrent programming model called monitor-style programming) and we follow a similar solution to the producer-consumer synchronization problem. 
+
+
+
+
   
 
