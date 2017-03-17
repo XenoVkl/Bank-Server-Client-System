@@ -15,20 +15,36 @@ Commands for the bank client:
 
 - add_account [init_amount] [account_name] [delay]
 
-  Requests for a bank account creation with an initial amount of money
+  Request for a bank account creation with an initial amount of money
 
 - add_transfer [amount] [src_name] [dest_name] [delay]
 
-  Requests for a ransaction between two bank accounts
+  Request for a ransaction between two bank accounts
   
 - add_multi_transfer [amount] [src_name] [dst_name1] ... [dst_nameX] [delay]
  
-  Requests for multiple transactions between one bank account and others
+  Request for multiple transactions between one bank account and others
   
 - print_balance [name]
+  
+  Request to print account's balance
+  
+- print_multi_balance [name1] ... [nameX]
 
+  Request to print the balance of many accounts
+  
+- sleep [time]
+
+  The bank-client will wait X msecs before sending the next command to the bank server
+  
+- exit
+
+  The program bank-client will be terminated
   
 
+----------------------------------------------------------------------
+Implementing the system using Networking and Monitor style programming 
+----------------------------------------------------------------------
   
   
 
