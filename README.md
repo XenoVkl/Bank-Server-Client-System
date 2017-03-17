@@ -41,7 +41,7 @@ Commands for the bank client:
 
   The program bank-client will be terminated
   
-
+- Note : The delay in the first three commands is optional
 ----------------------------------------
 Networking and Monitor-Style programming 
 ----------------------------------------
